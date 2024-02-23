@@ -138,6 +138,18 @@ body {
     cursor: pointer;    
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .attribution a {
+    color: var(--softBlue);
+  }
+  
+
 @media screen and (max-width: 375px) {
     .card {
         width: 327px;
@@ -156,8 +168,6 @@ body {
     .linhaDivisoria {
         width: 278px;
         margin: 16px 24px 16px 24px;
-
-    
     }
 }
   
