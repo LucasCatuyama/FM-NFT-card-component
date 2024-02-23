@@ -1,0 +1,130 @@
+body {
+  background-color: var(--veryDarkBlueMainBG);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 152px 532px 152px 558px;
+  font-family: var(--outfit);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card {
+  width: 350px;
+  height: 596px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  background-color: var(--veryDarkBlueCardBG);
+}
+
+.card__img {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+}
+.card__img img {
+  width: 302px;
+  height: 302px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.card__text {
+    margin: 0px 24px;
+}
+
+.card__text__title h1 {
+  color: var(--white);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card__text__title p {
+    color: var(--softBlue);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 16px 0 24px 0;
+  }
+
+.card__text__informacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__text__informacao__preco {
+    display: flex;
+}
+
+.card__text__informacao__preco img {
+    width: 11px;
+    height: 18px;
+    margin-right: 7px;
+}
+
+.card__text__informacao__preco p {
+    color: var(--cyan);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card__text__informacao__tempo {
+    display: flex;
+}
+
+.card__text__informacao__tempo img {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.card__text__informacao__tempo p {
+    color: var(--softBlue);
+    font-style: normal;
+    line-height: normal;
+}
+
+.linhaDivisoria {
+    width: 302px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color:var(--veryDarkBlueLine);
+    margin: 24px 24px 16px 24px;
+}
+
+.card__footer {
+    display: flex;
+    align-items: center;
+    margin: 0px 24px;
+}
+
+.card__footer img {
+    width: 33px;
+    height: auto;
+    border-radius: 33px;
+    border: 1px solid var(--white);
+    margin-right: 16px;
+}
+
+.card__footer p {
+    color: var(--softBlue);
+    font-style: normal;
+    line-height: normal;
+}
+
+.card__footer span {
+    color: var(--white);
+    font-style: normal;
+    line-height: normal;
+}
+
