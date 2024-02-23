@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 152px 532px 152px 558px;
+  justify-content: center;
   font-family: var(--outfit);
   font-weight: 400;
   font-size: 16px;
@@ -128,3 +128,8 @@ body {
     line-height: normal;
 }
 
+.card__text__title h1:hover,
+.card__footer span:hover {
+    color: var(--cyan);
+    cursor: pointer;    
+}
