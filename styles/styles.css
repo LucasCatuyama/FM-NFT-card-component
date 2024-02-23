@@ -138,6 +138,7 @@ body {
     cursor: pointer;    
 }
 
+/*
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -148,7 +149,7 @@ body {
   .attribution a {
     color: var(--softBlue);
   }
-  
+  */
 
 @media screen and (max-width: 375px) {
     .card {
